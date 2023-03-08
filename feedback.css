@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+JP:wght@100&display=swap');
+
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+}
+
+header {
+    background-color: #EF9C9C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+main {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 50px;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 8px;
+    border: 3px black solid;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 8px;
+    border: 3px black solid;  
+}
+
+.footer1 {
+    background-color: #919191;
+    display: flex;
+    color: azure;
+    width: 100%;
+    padding: 40px;
+}
+
+.picture {
+    background-image: url(Images/TEOTFW_Vertical_2284x3200_03\ 1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    border-radius: 70px;
+}
+
+.infa {
+    width: 20%;
+    text-align: center;
+}
+
+.addres {
+    width: 20%;
+    text-align: center;
+}
+
+.rejim {
+    width: 20%;
+    text-align: center;
+}
+
+
+.footer2{
+    background-color: #717171;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.themeButton{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.darkTheme {
+    background-color: #121212;
+    color: #fff;
+}
+
+.darkTheme header {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.darkTheme .naba {
+   color: aliceblue;
+}
+
+.darkTheme .footer2 {
+    background-color: #131313;
+}
+
+.darkTheme .footer1 {
+    background-color: #171717;
+}
+
+.btm {
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 8px;
+    border: 3px black solid;
+    margin-top: 20px;
+}

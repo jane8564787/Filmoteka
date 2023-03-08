@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+JP:wght@100&display=swap');
+
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+}
+
+header {
+    background-color: #EF9C9C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.footer1 {
+    background-color: #919191;
+    display: flex;
+    color: azure;
+    width: 100%;
+    padding: 40px;
+}
+
+.picture {
+    background-image: url(Images/snile.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    border-radius: 70px;
+}
+
+.infa {
+    width: 20%;
+    text-align: center;
+}
+
+.addres {
+    width: 20%;
+    text-align: center;
+}
+
+.rejim {
+    width: 20%;
+    text-align: center;
+}
+
+
+.footer2{
+    background-color: #717171;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.themeButton{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.darkTheme {
+    background-color: #121212;
+    color: #fff;
+}
+
+.darkTheme header {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.darkTheme .naba {
+   color: aliceblue;
+}
+
+.darkTheme .footer2 {
+    background-color: #131313;
+}
+
+.darkTheme .footer1 {
+    background-color: #171717;
+}
+
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+}
+
+.carousel__item {
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+}
+
+.opisanye{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture2{
+    width: 50%;
+    background-image: url(Images/i5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 250px;
+}
+
+.btn{
+    width: 120px;
+    height: 45px;
+    font-size: 18px;
+    border: 3px solid black;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    border: 3px solid white;
+    background-color: #121212;
+    color: white;
+}
+
+.popylar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.film{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%; 
+}
+
+.picture3{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+JP:wght@100&display=swap');
+
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+}
+
+header {
+    background-color: #EF9C9C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.footer1 {
+    background-color: #919191;
+    display: flex;
+    color: azure;
+    width: 100%;
+    padding: 40px;
+}
+
+.picture {
+    background-image: url(Images/snile.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    border-radius: 70px;
+}
+
+.infa {
+    width: 20%;
+    text-align: center;
+}
+
+.addres {
+    width: 20%;
+    text-align: center;
+}
+
+.rejim {
+    width: 20%;
+    text-align: center;
+}
+
+
+.footer2{
+    background-color: #717171;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.themeButton{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.darkTheme {
+    background-color: #121212;
+    color: #fff;
+}
+
+.darkTheme header {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.darkTheme .naba {
+   color: aliceblue;
+}
+
+.darkTheme .footer2 {
+    background-color: #131313;
+}
+
+.darkTheme .footer1 {
+    background-color: #171717;
+}
+
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+}
+
+.carousel__item {
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+}
+
+.opisanye{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture2{
+    width: 50%;
+    background-image: url(Images/i5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 250px;
+}
+
+.btn{
+    width: 120px;
+    height: 45px;
+    font-size: 18px;
+    border: 3px solid black;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    border: 3px solid white;
+    background-color: #121212;
+    color: white;
+}
+
+.popylar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.film{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%; 
+}
+
+.picture3{
+    margin-bottom: 20px;
+}
+
+.menu {
+    width: calc(100% - 4em);
+    height: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2em;
+}
+
+.menu_item {
+    margin-right: 1em;
+    display: flex;
+}
+
+.menu_small_icon {
+    display: none;
+}
+
+.menu-small {
+    display: none;
+    height: 2em;
+}
+
+.menu_small_item {
+    display: none;
+}
+
+.stick {
+    width: 80%;
+    height: 5px;
+    background: black;
+}
+
+.inner {
+    padding: 1em 0 0 0;
+    width: 60%;
+    height: auto;
+}
+
+.Zagolovok {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media (max-width: 650px) {
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 15%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .menu-small {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        background: white;
+        transform: translateX(-100%);
+    }
+
+    .menu_small_item {
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu_small_item:first-child {
+        padding-top: calc(50px + 2em);
+    }
+
+    .menu_small_icon {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        z-index: 1;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .inner {
+        padding-top: calc(50px + 2em);
+    }
+
+    .inner p {
+        margin: 0
+    }
+}
